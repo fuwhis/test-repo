@@ -2,8 +2,8 @@ const express = require('express');
 const { parse } = require('url');
 const next = require('next');
 
-const port = parseInt(process.env.PORT, 10) || 3006;
-// 判断开发环境和生产环境
+const port = parseInt(process.env.PORT, 10) || 3000;
+// Determine develop environment and production environment
 process.env.NODE_ENV = (typeof process.env.NODE_ENV !== 'undefined')
   ? process.env.NODE_ENV.trim()
   : 'development';

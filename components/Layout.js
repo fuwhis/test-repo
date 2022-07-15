@@ -8,7 +8,7 @@ export default ({title, children }) => (
     <Head>
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <meta charSet='utf-8' />
-      <title>Next-Antd-Scafflod</title>
+      <title>Based Structure</title>
       <link rel='shortcut icon' href='/static/favicon.ico' type='image/ico'/>
       <link rel='stylesheet' href='/_next/static/style.css' />
     </Head>
@@ -18,7 +18,7 @@ export default ({title, children }) => (
         padding: 0;
       }
       body {
-        font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif;
+        font-family: Helvetica, 'Hiragino Sans GB', Arial, sans-serif;
       }
       .content-container {
         display: flex;
