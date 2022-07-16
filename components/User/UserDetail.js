@@ -10,7 +10,7 @@ class UserDetail extends Component {
   render() {
     return (
       <Fragment>
-        <h1>用户信息：{this.state.username}</h1>
+        <h1>User info：{this.state.username}</h1>
       </Fragment>
     );
   }

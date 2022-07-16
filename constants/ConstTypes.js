@@ -1,14 +1,14 @@
 // 用户级别
 export const RoleType = {
-  1: '管理员',
-  10: '普通用户'
+  1: 'Administrator',
+  10: 'General User'
 };
 
-// 路由对应页面标题
+// The route corresponds to the page title
 export const RouterTitle = {
-  '/': '首页',
-  '/user/userList': '用户列表',
-  '/user/userDetail': '用户详情'
+  '/': 'front page',
+  '/user/userList': 'User List',
+  '/user/userDetail': 'User Detail'
 };
 
 export const TagsArray = [
@@ -22,7 +22,7 @@ export const TagsArray = [
     name: 'CSS',
     url: '/static/tags/CSS.png'
   }, {
-    name: '前端',
+    name: 'Front-End',
     url: '/static/tags/WEB.png'
   }, {
     name: 'React',
@@ -40,19 +40,19 @@ export const TagsArray = [
     name: 'Nodejs',
     url: '/static/tags/Nodejs.png'
   }, {
-    name: '后端',
+    name: 'rear end',
     url: '/static/tags/Back.png'
   }, {
     name: 'Java',
     url: '/static/tags/Java.png'
   }, {
-    name: '产品',
+    name: 'Product',
     url: '/static/tags/Product.png'
   }, {
-    name: '数据库',
+    name: 'Database',
     url: '/static/tags/Database.png'
   }, {
-    name: '算法',
+    name: 'Algorithm',
     url: '/static/tags/Algorithm.png'
   }, {
     name: 'Python',

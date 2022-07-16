@@ -2,7 +2,7 @@
 
 export default {
   /**
-   * 获取用户列表数据
+   * Get user list data
    * @method GET
    */
   getUserList: 'https://jsonplaceholder.typicode.com/users'
