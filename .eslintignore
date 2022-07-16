@@ -1,3 +1,10 @@
+# dependencies
 node_modules/
+
+# production
 .next/
+
+#ide 
+.vscode/
+
 .editorconfig
