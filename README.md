@@ -1,4 +1,4 @@
-A react ssr scafflod with ant-design based on Next.js.
+A react ssr scaffold with ant-design based on Next.js.
 
 ## Directory
 
@@ -13,10 +13,10 @@ A react ssr scafflod with ant-design based on Next.js.
   | -- containers      // React container component
   | -- pages           // Next.js routes
   | -- redux
-      | -- actions     // deal all projectaction
-      | -- middlewares // redux status middlewares
+      | -- actions     // deal all project actions
+      | -- middleware // redux status middleware
       | -- reducers    // deal all project reducer
-      | -- sagas       // sace all project saga
+      | -- sagas       // save all project saga
       | -- store.js  
   | -- static          // save static source directory
   | -- .babelrc
